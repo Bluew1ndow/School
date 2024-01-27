@@ -16,7 +16,8 @@ class Teacher(models.Model):
         return f"{self.first_name} {self.last_name} (ID: {self.id})"
 
 class Student(models.Model):
-    rollNo = models.AutoField
+    id = models.AutoField
+    rollNo = models.IntegerField(unique=True,default=0)
     teacherId = models.ForeignKey(Teacher, on_delete=models.CASCADE, null=True)
     first_name = models.CharField(max_length=100)
     middle_name = models.CharField(max_length=100)
@@ -30,7 +31,7 @@ class Student(models.Model):
     modified_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f"{self.first_name} {self.last_name} (Roll No: {self.rollNo})"
+        return f"{self.first_name} {self.last_name} (ID: {self.id})"
 
 class Guardian(models.Model):
     id = models.AutoField
@@ -63,5 +64,5 @@ class Teacher_Subject_Assignment(models.Model):
     modified_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f"{self.subject_name} (ID: {self.assignmentId})"
+        return f"Teacher: {self.teacherId}, Subject: {self.subjectId}"
 
