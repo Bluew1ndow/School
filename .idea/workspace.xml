@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f1198ea5-d21a-4fb7-b2b8-6b83db24f194" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/School/media/Student/birth_certificate/Screenshot_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/media/Student/birth_certificate/Screenshot_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/media/Student/birth_certificate/Screenshot_323.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/media/Student/birth_certificate/Screenshot_3_6bHAlw3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/media/Student/birth_certificate/Screenshot_3_GISY03v.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/media/Student/birth_certificate/Screenshot_3_UZX0OlL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/media/Student/birth_certificate/Screenshot_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/media/Student/birth_certificate/Screenshot_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/media/Student/birth_certificate/Screenshot_5_mI22iyO.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/School/media/Student/birth_certificate/Screenshot_9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School/School/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/School/School/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School/School/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/School/School/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School/class/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/School/class/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School/class/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/School/class/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/School/class/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/School/class/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/School/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/School/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,17 +36,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/HP/PycharmProjects/DjangoCourse",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/PycharmProjects/DjangoCourse&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>

@@ -3,7 +3,6 @@ from django.shortcuts import render
 import json
 from .models import Student , Guardian, Teacher, Subject,Teacher_Subject_Assignment
 from django.http import JsonResponse
-from django.core.serializers.json import DjangoJSONEncoder
 from django.db.models import Q
 import logging
 from django.views.decorators.csrf import csrf_exempt
