@@ -7,8 +7,9 @@ class Teacher(models.Model):
     middle_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
     date_of_birth = models.DateField()
-    aadhar_card_image = models.CharField(max_length=1000)
+    aadhar_card_image = models.ImageField(upload_to='Teacher/aadhar', default="")
     capacity = models.IntegerField()
+    enrolled = models.IntegerField(default=0)
     created_at = models.DateTimeField(auto_now_add=True)
     modified_at = models.DateTimeField(auto_now_add=True)
 
@@ -18,14 +19,14 @@ class Teacher(models.Model):
 class Student(models.Model):
     id = models.AutoField
     rollNo = models.IntegerField(unique=True,default=0)
-    teacherId = models.ForeignKey(Teacher, on_delete=models.CASCADE, null=True)
+    teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE, null=True)
     first_name = models.CharField(max_length=100)
     middle_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
-    class_name = models.CharField(max_length=100)
+    class_name = models.IntegerField(default=0)
     date_of_admission = models.DateField()
     date_of_birth = models.DateField()
-    birth_certificate = models.CharField(max_length=1000)
+    birth_certificate = models.ImageField(upload_to='Student/birth_certificate', default="")
     address = models.CharField(max_length=1000)
     created_at = models.DateTimeField(auto_now_add=True)
     modified_at = models.DateTimeField(auto_now=True)
@@ -35,7 +36,7 @@ class Student(models.Model):
 
 class Guardian(models.Model):
     id = models.AutoField
-    studentId = models.ForeignKey(Student, on_delete=models.CASCADE, null=True)
+    student = models.ForeignKey(Student, on_delete=models.CASCADE, null=True)
     name = models.CharField(max_length=100)
     relation = models.CharField(max_length=100)
     phone_number = models.CharField(max_length=100)
